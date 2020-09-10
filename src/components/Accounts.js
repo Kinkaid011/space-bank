@@ -4,19 +4,20 @@ import { Link } from "react-router-dom";
 
 
 
+
 const Accounts = () => {
     return (
         <Fragment>
             <div className="account">
                 <div className="carrier-info">
                     <div className="carrier-icon">
-                        <img src="/images/carrier.svg" alt="att logo"/>
+                        <img src="./images/carrier.svg" alt="att logo"/>
                     </div>
                     
                     <div className="network-icons">
-                        <img src="/images/wifi-icon.svg" alt="wifi icon"/>
-                        <img src="/images/battery-icon.svg" alt="battery icon"/>
-                        <img src="/images/cell-bars.svg" alt="cell bars icon"/>
+                        <img src="./images/wifi-icon.svg" alt="wifi icon"/>
+                        <img src="./images/battery-icon.svg" alt="battery icon"/>
+                        <img src="./images/cell-bars.svg" alt="cell bars icon"/>
                     </div>
                 </div>
 
@@ -89,36 +90,36 @@ const Accounts = () => {
 
                 <div className="account-edit-view">
                     <p>Balances may reflect transactions that haven't yet posted to your account</p>
-                    <img src="/images/bluesecurity.svg" alt="shield icon"/>
+                    <img src="./images/bluesecurity.svg" alt="shield icon"/>
                     <span>Check your security health</span>
                 </div> 
 
                 <div className="bottom-nav">
                     <div className="piggy-bank">
-                            <img src="/images/piggy-bank.svg" alt="piggy bank icon"/>
+                            <img src="./images/piggy-bank.svg" alt="piggy bank icon"/>
                             <p>Accounts</p>
                     </div>
                     <div className="transfer-arrow">
                         <Link to="/transfer" style={{ textDecoration: 'none'}}>
-                            <img src="/images/transfer.svg" alt="transfer arrows icon"/>
+                            <img src="./images/transfer.svg" alt="transfer arrows icon"/>
                             <p>Transfers</p>
                         </Link>
                     </div>
                     <div className="deposit-camera">
                         <Link to="/deposit" style={{ textDecoration: 'none'}}>
-                            <img src="/images/deposit.svg" alt="camera icon"/>
+                            <img src="./images/deposit.svg" alt="camera icon"/>
                             <p>Deposits</p>
                         </Link>
                     </div>
                     <div className="bill-mail">
                         <Link to="/bill" style={{ textDecoration: 'none'}}>
-                            <img src="/images/bills.svg" alt="envelope with mail icon"/>
+                            <img src="./images/bills.svg" alt="envelope with mail icon"/>
                             <p>Bill Pay</p>
                         </Link>
                     </div>
                     <div className="more-dots">
                         <Link to="/help" style={{ textDecoration: 'none'}}>
-                            <img src="/images/more.svg" alt="three dots icon"/>
+                            <img src="./images/more.svg" alt="three dots icon"/>
                             <p>More</p>                        
                         </Link>
                     </div>

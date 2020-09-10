@@ -8,20 +8,20 @@ const AddBiller = () => {
             <div className="addmember">
                 <div className="carrier-info">
                     <div className="carrier-icon">
-                        <img src="/images/carrier.svg" alt="att logo"/>
+                        <img src="./images/carrier.svg" alt="att logo"/>
                     </div>
                     
                     <div className="network-icons">
-                        <img src="/images/wifi-icon.svg" alt="wifi icon"/>
-                        <img src="/images/battery-icon.svg" alt="battery icon"/>
-                        <img src="/images/cell-bars.svg" alt="cell bars icon"/>
+                        <img src="./images/wifi-icon.svg" alt="wifi icon"/>
+                        <img src="./images/battery-icon.svg" alt="battery icon"/>
+                        <img src="./images/cell-bars.svg" alt="cell bars icon"/>
                     </div>
                 </div>
 
                 <div className="transfer-title">
-                    <Link to="/bill"><img src="/images/back-button.svg" alt="back button"/></Link>
+                    <Link to="/bill"><img src="./images/back-button.svg" alt="back button"/></Link>
                     <h5>Add Biller</h5>
-                    <Link to="/addcompany"><img src="/images/add-sign.svg" alt="add icon"/></Link>
+                    <Link to="/addcompany"><img src="./images/add-sign.svg" alt="add icon"/></Link>
                 </div>
 
                 <div className="addaccounts">

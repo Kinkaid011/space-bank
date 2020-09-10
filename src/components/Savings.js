@@ -9,20 +9,20 @@ const Saving = () => {
            <div className="checking">
                 <div className="carrier-info">
                     <div className="carrier-icon">
-                        <img src="/images/carrier.svg" alt="att logo"/>
+                        <img src="./images/carrier.svg" alt="att logo"/>
                     </div>
                     
                     <div className="network-icons">
-                        <img src="/images/wifi-icon.svg" alt="wifi icon"/>
-                        <img src="/images/battery-icon.svg" alt="battery icon"/>
-                        <img src="/images/cell-bars.svg" alt="cell bars icon"/>
+                        <img src="./images/wifi-icon.svg" alt="wifi icon"/>
+                        <img src="./images/battery-icon.svg" alt="battery icon"/>
+                        <img src="./images/cell-bars.svg" alt="cell bars icon"/>
                     </div>
                 </div>
 
                 <div className="loan-title">
-                    <Link to="/accounts"><img src="/images/back-button.svg" alt="back button"/></Link>
+                    <Link to="/accounts"><img src="./images/back-button.svg" alt="back button"/></Link>
                     <h5>Savings - 4564</h5>
-                    <img src="/images/search.svg" alt="search icon"/>
+                    <img src="./images/search.svg" alt="search icon"/>
                 </div>
 
                 <div className="checking-amount">
@@ -32,7 +32,7 @@ const Saving = () => {
                     </div>
                     <div className="show-more">
                         <p>SHOW MORE DETAILS</p>
-                        <img src="/images/show-arrow.svg" alt="down arrow"/>
+                        <img src="./images/show-arrow.svg" alt="down arrow"/>
                     </div>
 
                     <div className="show-details">
@@ -70,7 +70,7 @@ const Saving = () => {
                         </div>
                         <div className="comparison-detail">
                             <p>Current vs Available Balance</p>
-                            <img src="/images/question.svg" alt="question mark icon"/>
+                            <img src="./images/question.svg" alt="question mark icon"/>
                         </div>
                     </div>
                 </div>
@@ -78,22 +78,22 @@ const Saving = () => {
                 <div className="checking-actions">
                     <div className="option-header">
                         <div className="checking-option">
-                            <img src="/images/deposit-history.svg" alt="search icon"/>
+                            <img src="./images/deposit-history.svg" alt="search icon"/>
                             <span>Statements</span>
                         </div>
                         <div className="checking-option">
-                            <img src="/images/palm-tree.svg" alt="search icon"/>
+                            <img src="./images/palm-tree.svg" alt="search icon"/>
                             <span>Build Savings</span>
                         </div>
                         <div className="checking-option">
-                            <img src="/images/send-money.svg" alt="search icon"/>
+                            <img src="./images/send-money.svg" alt="search icon"/>
                             <span>Send Money</span>
                         </div>
                         
                     </div>
 
                     <div className="schedule-header">
-                        <img src="/images/calendar-clock.svg" alt="search icon"/>
+                        <img src="./images/calendar-clock.svg" alt="search icon"/>
                         <div className="checking-transactions">
                             <p>Schduled Transactions</p>  
                             <span>View scheduled payments, transfers, deposits</span>
@@ -103,8 +103,8 @@ const Saving = () => {
 
                 <div className="search-payment">
                     <input type="search" placeholder="keyword, amount, or mm/dd/yyyy"/>
-                    <img src="/images/calendar.svg" alt="calendar icon"/>
-                    <img id="search" src="/images/searchgray.svg" alt="search icon"/>
+                    <img src="./images/calendar.svg" alt="calendar icon"/>
+                    <img id="search" src="./images/searchgray.svg" alt="search icon"/>
                 </div>
 
                 <div className="last-transaction">
@@ -148,23 +148,23 @@ const Saving = () => {
 
                 <div className="bottom-nav">
                     <div className="piggy-bank">
-                        <img src="/images/piggy-bank.svg" alt="piggy bank icon"/>
+                        <img src="./images/piggy-bank.svg" alt="piggy bank icon"/>
                         <p>Accounts</p>
                     </div>
                     <div className="transfer-arrow">
-                        <img src="/images/transfer.svg" alt="transfer arrows icon"/>
+                        <img src="./images/transfer.svg" alt="transfer arrows icon"/>
                         <p>Transfers</p>
                     </div>
                     <div className="deposit-camera">
-                        <img src="/images/deposit.svg" alt="camera icon"/>
+                        <img src="./images/deposit.svg" alt="camera icon"/>
                         <p>Deposits</p>
                     </div>
                     <div className="bill-mail">
-                        <img src="/images/bills.svg" alt="envelope with mail icon"/>
+                        <img src="./images/bills.svg" alt="envelope with mail icon"/>
                         <p>Bill Pay</p>
                     </div>
                     <div className="more-dots">
-                        <img src="/images/more.svg" alt="three dots icon"/>
+                        <img src="./images/more.svg" alt="three dots icon"/>
                         <p>More</p>
                     </div>
                 </div>      

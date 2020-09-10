@@ -16,20 +16,20 @@ const Loan = () => {
            <div className="loan">
                 <div className="carrier-info">
                     <div className="carrier-icon">
-                        <img src="/images/carrier.svg" alt="att logo"/>
+                        <img src="./images/carrier.svg" alt="att logo"/>
                     </div>
                     
                     <div className="network-icons">
-                        <img src="/images/wifi-icon.svg" alt="wifi icon"/>
-                        <img src="/images/battery-icon.svg" alt="battery icon"/>
-                        <img src="/images/cell-bars.svg" alt="cell bars icon"/>
+                        <img src="./images/wifi-icon.svg" alt="wifi icon"/>
+                        <img src="./images/battery-icon.svg" alt="battery icon"/>
+                        <img src="./images/cell-bars.svg" alt="cell bars icon"/>
                     </div>
                 </div>
 
                 <div className="loan-title">
                     <Link to="/accounts"><img src="/images/back-button.svg" alt="back button"/></Link>
                     <h5>Consolidation - 7897</h5>
-                    <img src="/images/search.svg" alt="search icon"/>
+                    <img src="./images/search.svg" alt="search icon"/>
                 </div>
 
                 <div className="loan-amount">
@@ -39,7 +39,7 @@ const Loan = () => {
                     </div>
                     <div className="show-more">
                         <p>SHOW MORE DETAILS</p>
-                        <img src="/images/show-arrow.svg" alt="down arrow"/>
+                        <img src="./images/show-arrow.svg" alt="down arrow"/>
                     </div>
                 </div>
 
@@ -53,8 +53,8 @@ const Loan = () => {
 
                 <div className="search-payment">
                     <input type="search" placeholder="keyword, amount, or mm/dd/yyyy"/>
-                    <img src="/images/calendar.svg" alt="calendar icon"/>
-                    <img id="search" src="/images/searchgray.svg" alt="search icon"/>
+                    <img src="./images/calendar.svg" alt="calendar icon"/>
+                    <img id="search" src="./images/searchgray.svg" alt="search icon"/>
                 </div>
 
                 <div className="last-payment">
@@ -68,31 +68,31 @@ const Loan = () => {
                 <div className="bottom-nav">
                     <div className="piggy-bank">
                         <Link to="/accounts" style={{ textDecoration: 'none'}}>
-                            <img src="/images/piggy-bank.svg" alt="piggy bank icon"/>
+                            <img src="./images/piggy-bank.svg" alt="piggy bank icon"/>
                             <p>Accounts</p>
                         </Link>     
                     </div>
                     <div className="transfer-arrow">
                         <Link to="/transfer" style={{ textDecoration: 'none'}}>
-                            <img src="/images/transfer.svg" alt="transfer arrows icon"/>
+                            <img src="./images/transfer.svg" alt="transfer arrows icon"/>
                             <p>Transfers</p>
                         </Link>
                     </div>
                     <div className="deposit-camera">
                         <Link to="/deposit" style={{ textDecoration: 'none'}}>
-                            <img src="/images/deposit.svg" alt="camera icon"/>
+                            <img src="./images/deposit.svg" alt="camera icon"/>
                             <p>Deposits</p>
                         </Link>
                     </div>
                     <div className="bill-mail">
                         <Link to="/bill" style={{ textDecoration: 'none'}}>
-                            <img src="/images/bills.svg" alt="envelope with mail icon"/>
+                            <img src="./images/bills.svg" alt="envelope with mail icon"/>
                             <p>Bill Pay</p>
                         </Link>
                     </div>
                     <div className="more-dots">
                         <Link to="/help" style={{ textDecoration: 'none'}}>
-                            <img src="/images/more.svg" alt="three dots icon"/>
+                            <img src="./images/more.svg" alt="three dots icon"/>
                             <p>More</p>                        
                         </Link>
                     </div>

@@ -8,22 +8,22 @@ const PayLoan = () => {
             <div className="payloan">
                 <div className="carrier-info">
                     <div className="carrier-icon">
-                        <img src="/images/carrier.svg" alt="att logo"/>
+                        <img src="./images/carrier.svg" alt="att logo"/>
                     </div>
                     
                     <div className="network-icons">
-                        <img src="/images/wifi-icon.svg" alt="wifi icon"/>
-                        <img src="/images/battery-icon.svg" alt="battery icon"/>
-                        <img src="/images/cell-bars.svg" alt="cell bars icon"/>
+                        <img src="./images/wifi-icon.svg" alt="wifi icon"/>
+                        <img src="./images/battery-icon.svg" alt="battery icon"/>
+                        <img src="./images/cell-bars.svg" alt="cell bars icon"/>
                     </div>
                 </div>
 
 
 
                 <div className="pay-title">
-                    <img src="/images/back-button.svg" alt="back button"/>
+                    <img src="./images/back-button.svg" alt="back button"/>
                     <h5>Select Payment Amount</h5>
-                    <img src="/images/search.svg" alt="search icon"/>
+                    <img src="./images/search.svg" alt="search icon"/>
                 </div>
 
                  <div className="select-amount">
