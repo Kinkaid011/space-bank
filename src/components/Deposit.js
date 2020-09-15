@@ -38,7 +38,7 @@ const Deposit = () => {
                 <div className="bottom-nav">
                     <div className="piggy-bank">
                         <Link to="/accounts" style={{ textDecoration: 'none'}}>
-                            <img src="./images/piggy-bank.svg" alt="piggy bank icon"/>
+                            <img src="./images/gray-piggy.svg" alt="piggy bank icon"/>
                             <p>Accounts</p>
                         </Link>     
                     </div>
@@ -50,7 +50,7 @@ const Deposit = () => {
                     </div>
                     <div className="deposit-camera">
                         <Link to="/deposit" style={{ textDecoration: 'none'}}>
-                            <img src="./images/deposit.svg" alt="camera icon"/>
+                            <img src="./images/bluedeposit.svg" alt="camera icon"/>
                             <p>Deposits</p>
                         </Link>
                     </div>

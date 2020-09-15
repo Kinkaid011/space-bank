@@ -52,63 +52,42 @@ const Help = () => {
                 </div>
 
                 <div className="bottom-nav">
-                    <div className="piggy-bank">
-                        <img src="./images/piggy-bank.svg" alt="piggy bank icon"/>
-                        <p>Accounts</p>
-                    </div>
-                    <div className="transfer-arrow">
-                        <img src="./images/transfer.svg" alt="transfer arrows icon"/>
-                        <p>Transfers</p>
-                    </div>
-                    <div className="deposit-camera">
-                        <img src="./images/deposit.svg" alt="camera icon"/>
-                        <p>Deposits</p>
-                    </div>
-                    <div className="bill-mail">
-                        <img src="./images/bills.svg" alt="envelope with mail icon"/>
-                        <p>Bill Pay</p>
-                    </div>
-                    <div className="more-dots">
-                        <img src="./images/more.svg" alt="three dots icon"/>
-                        <p>More</p>
-                    </div>
-                </div> 
-            </div>
-
-           
-
-            <div className="bottom-nav">
                 <div className="piggy-bank">
                     <Link to="/accounts" style={{ textDecoration: 'none'}}>
-                        <img src="/images/piggy-bank.svg" alt="piggy bank icon"/>
+                        <img src="./images/gray-piggy.svg" alt="piggy bank icon"/>
                         <p>Accounts</p>
                     </Link>     
                 </div>
                 <div className="transfer-arrow">
                     <Link to="/transfer" style={{ textDecoration: 'none'}}>
-                        <img src="/images/transfer.svg" alt="transfer arrows icon"/>
+                        <img src="./images/transfer.svg" alt="transfer arrows icon"/>
                         <p>Transfers</p>
                     </Link>
                 </div>
                 <div className="deposit-camera">
                     <Link to="/deposit" style={{ textDecoration: 'none'}}>
-                        <img src="/images/deposit.svg" alt="camera icon"/>
+                        <img src="./images/deposit.svg" alt="camera icon"/>
                         <p>Deposits</p>
                     </Link>
                 </div>
                 <div className="bill-mail">
                     <Link to="/bill" style={{ textDecoration: 'none'}}>
-                        <img src="/images/bills.svg" alt="envelope with mail icon"/>
+                        <img src="./images/bills.svg" alt="envelope with mail icon"/>
                         <p>Bill Pay</p>
                     </Link>
                 </div>
                 <div className="more-dots">
                     <Link to="/help" style={{ textDecoration: 'none'}}>
-                        <img src="/images/more.svg" alt="three dots icon"/>
+                        <img src="./images/bluemore.svg" alt="three dots icon"/>
                         <p>More</p>                        
                     </Link>
                 </div>
             </div>
+            </div>
+
+           
+
+            
 
         </Fragment>
     )

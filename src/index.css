@@ -492,6 +492,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1.25fr 1fr;
   grid-template-rows: 50px 50px .5fr .1fr 1.9fr;
+  position: relative;
 }
 
 .transfer-title {
@@ -603,6 +604,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1.25fr 1fr;
   grid-template-rows: 50px 50px .5fr .1fr 1.9fr;
+  position: relative;
 }
 
 .bill-title {
@@ -722,6 +724,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1.25fr 1fr;
   grid-template-rows: 50px 50px .2fr 1.8fr;
+  position: relative;
 }
 
 .deposit-title {
@@ -789,6 +792,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1.25fr 1fr;
   grid-template-rows: 50px 50px 1fr;
+  position: relative;
 }
 
 .help-title {
@@ -848,7 +852,8 @@ body {
   height:  812px;
   display: grid;
   grid-template-columns: 1fr 1.25fr 1fr;
-  grid-template-rows: 50px 50px .6fr .45fr .25fr 1.8fr
+  grid-template-rows: 50px 50px .6fr .45fr .25fr 1.8fr;
+  position: relative;
 }
 
 .loan-title {
@@ -1016,7 +1021,8 @@ body {
   height:  812px;
   display: grid;
   grid-template-columns: .75fr 1fr 1fr;
-  grid-template-rows: 50px 50px .5fr  1.25fr
+  grid-template-rows: 50px 50px .5fr  1.25fr;
+  position: relative;
 }
 
 .pay-title {
@@ -1119,7 +1125,8 @@ body {
   height:  812px;
   display: grid;
   grid-template-columns: .75fr 1fr 1fr;
-  grid-template-rows: 50px 50px .4fr 1fr
+  grid-template-rows: 50px 50px .4fr 1fr;
+  position: relative;
 }
 
 .transfer-options {
@@ -1192,6 +1199,7 @@ body {
   display: grid;
   grid-template-columns: .75fr 1fr 1fr;
   grid-template-rows: 50px 50px  1fr;
+  position: relative;
 }
 
 .addaccounts {
@@ -1247,6 +1255,7 @@ body {
   display: grid;
   grid-template-columns: .75fr 1fr 1fr;
   grid-template-rows: 50px 50px  .4fr 1.6fr;
+  position: relative;
 }
 
 .member-options {
@@ -1339,6 +1348,7 @@ body {
   display: grid;
   grid-template-columns: .75fr 1fr 1fr;
   grid-template-rows: 50px 50px  .4fr 1.6fr;
+  position: relative;
 }
 
 .member-options {
@@ -1445,6 +1455,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1.25fr 1fr;
   grid-template-rows: 50px 50px .4fr .85fr .35fr 1.5fr;
+  position: relative;
 }
 
 .checking-title {
@@ -1707,6 +1718,7 @@ body {
   align-items: center;
   padding: 0 15px;
   margin: 15px 0;
+  position: relative;
 }
 
 

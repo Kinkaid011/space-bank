@@ -53,7 +53,7 @@ const Bill = () => {
                 <div className="bottom-nav">
                     <div className="piggy-bank">
                         <Link to="/accounts" style={{ textDecoration: 'none'}}>
-                            <img src="./images/piggy-bank.svg" alt="piggy bank icon"/>
+                            <img src="./images/gray-piggy.svg" alt="piggy bank icon"/>
                             <p>Accounts</p>
                         </Link>     
                     </div>
@@ -71,7 +71,7 @@ const Bill = () => {
                     </div>
                     <div className="bill-mail">
                         <Link to="/bill" style={{ textDecoration: 'none'}}>
-                            <img src="./images/bills.svg" alt="envelope with mail icon"/>
+                            <img src="./images/bluebill.svg" alt="envelope with mail icon"/>
                             <p>Bill Pay</p>
                         </Link>
                     </div>

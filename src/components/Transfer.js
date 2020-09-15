@@ -52,13 +52,13 @@ const Transfer = () => {
                 <div className="bottom-nav">
                     <div className="piggy-bank">
                         <Link to="/accounts" style={{ textDecoration: 'none'}}>
-                            <img src="./images/piggy-bank.svg" alt="piggy bank icon"/>
+                            <img src="./images/gray-piggy.svg" alt="piggy bank icon"/>
                             <p>Accounts</p>
                         </Link>     
                     </div>
                     <div className="transfer-arrow">
                         <Link to="/transfer" style={{ textDecoration: 'none'}}>
-                            <img src="./images/transfer.svg" alt="transfer arrows icon"/>
+                            <img src="./images/bluetransfer.svg" alt="transfer arrows icon"/>
                             <p>Transfers</p>
                         </Link>
                     </div>
